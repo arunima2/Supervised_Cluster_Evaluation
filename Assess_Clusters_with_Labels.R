@@ -25,7 +25,7 @@ lab_uniq_col = as.numeric(as.factor(levels(labels_fact)))
 table = c()
 if(header_exist == "T")
 {
-table = read.table(table_file,sep = sep_str, row.names = 1, header=F)
+table = read.table(table_file,sep = sep_str, row.names = 1, header=T)
 
 } else if(header_exist == "F")
 {
